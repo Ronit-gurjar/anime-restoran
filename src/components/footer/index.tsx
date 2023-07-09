@@ -14,6 +14,7 @@ const poppins = Poppins({
 const Footer = () => {
   return (
     <footer className="footer">
+      <div className={poppins.className}>
       <div className="footer__content">
         <div className="footer__left">
           <a href="#">Link 1</a>
@@ -37,6 +38,7 @@ const Footer = () => {
       </div>
       <div className="footer__text">
         <p>&copy; 2023 Your Company. All rights reserved.</p>
+      </div>
       </div>
     </footer>
   );
