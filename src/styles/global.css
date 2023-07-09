@@ -3,12 +3,14 @@ body {
 }
 /*--------------navbar style----------------*/
 .navbar {
+  width: -webkit-fill-available;
   margin-top: 1rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #333333cd;
+  background-color: #333333ee;
   border-radius: 1rem;
+  position: fixed;
 }
 
 .navbar__left {
@@ -26,8 +28,8 @@ body {
 }
 
 .navbar__logo img {
-  width: 100px;
-  height: 50px;
+  width: 8rem;
+  height: 4rem;
 }
 
 .navbar__right button {
