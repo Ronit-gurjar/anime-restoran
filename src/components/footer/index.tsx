@@ -29,10 +29,10 @@ const Footer = () => {
       </div>
       <div className="footer__social">
             <a href="#">
-            <i id="social1" className="fa-insta fa-2x" ></i>
+            <i id="social1" className="fa-brands fa-instagram fa-lg"></i>
             </a>
             <a href="#">
-            <i id="social2" className="fa-youtube fa-2x" ></i>
+            <i id="social2" className="fa-brands fa-youtube fa-lg" ></i>
             </a>
       </div>
       <div className="footer__text">
