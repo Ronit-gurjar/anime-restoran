@@ -40,6 +40,36 @@ body {
 }
 /*---------navbar style ends-------------*/
 
+/*--------------Home style----------------*/
+.home {
+  background-color: #ff6b00;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.home__top {
+  margin-bottom: 20px;
+}
+
+.home__bottom {
+  display: flex;
+}
+
+.home__image {
+  margin-right: 10px;
+}
+
+.home__image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+/*---------Home style ends-------------*/
+
 /*--------------footer style----------------*/
 .footer {
   background-color: #333333;
