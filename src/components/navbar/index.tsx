@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState }  from 'react'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Image from 'next/image';
 import logoImage from '../../../public/images/logo.png';
 import {Poppins} from 'next/font/google'
+import Sidebar from '@components/sidebar';
 
 const poppins = Poppins({
     weight: ['200', '400'],
@@ -12,6 +13,12 @@ const poppins = Poppins({
   })
 
 const Navbar = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
   return (
     <>
      <nav className="navbar">
@@ -26,10 +33,11 @@ const Navbar = () => {
         <button>
           <i id="icon-cart" className="fas fa-shopping-cart fa-2x" ></i>
         </button>
-        <button>
+        <button className='User' onClick={toggleSidebar}>
           <i id="icon-user" className="fas fa-user-circle fa-2x"></i>
         </button>
       </div>
+      {isSidebarOpen && <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />}
     </nav>
     </>
   )
