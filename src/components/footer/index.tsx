@@ -25,15 +25,15 @@ const Footer = () => {
         <div className="footer__right">
           <a href="#">Link 3</a>
           <a href="#">Link 4</a>
-          <div className="footer__social">
-            <a href="#">
-            <i id="social1" className="fas fa-instagram fa-2x" ></i>
-            </a>
-            <a href="#">
-            <i id="social2" className="fas fa-youtube fa-2x" ></i>
-            </a>
-          </div>
         </div>
+      </div>
+      <div className="footer__social">
+            <a href="#">
+            <i id="social1" className="fa-insta fa-2x" ></i>
+            </a>
+            <a href="#">
+            <i id="social2" className="fa-youtube fa-2x" ></i>
+            </a>
       </div>
       <div className="footer__text">
         <p>&copy; 2023 Your Company. All rights reserved.</p>
