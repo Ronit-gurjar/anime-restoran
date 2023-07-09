@@ -15,7 +15,7 @@ import { authProvider } from "src/authProvider";
 import { supabaseClient } from "src/utility";
 
 import Home from "./home";
-import Footer from "@components/footer";
+
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   noLayout?: boolean;
@@ -38,7 +38,7 @@ function MyApp({ pageProps }: AppPropsWithLayout): JSX.Element {
   return (
     <>
     <Home/>
-    <Footer/>
+    
     </>
   );
 }

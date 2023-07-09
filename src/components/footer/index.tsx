@@ -29,12 +29,12 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__social">
-            <a href="#">
+          <a href="#">
             <i id="social1" className="fa-brands fa-instagram fa-lg"></i>
-            </a>
-            <a href="#">
+          </a>
+          <a href="#">
             <i id="social2" className="fa-brands fa-youtube fa-lg" ></i>
-            </a>
+          </a>
       </div>
       <div className="footer__text">
         <p>&copy; 2023 Your Company. All rights reserved.</p>
