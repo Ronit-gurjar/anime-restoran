@@ -78,7 +78,11 @@ body {
   color: #ff6b00;
   margin-right: 10px;
   font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .footer__text {
   text-align: center;
