@@ -14,6 +14,7 @@ import { appWithTranslation, useTranslation } from "next-i18next";
 import { authProvider } from "src/authProvider";
 import { supabaseClient } from "src/utility";
 import Navbar from "@components/navbar";
+import Footer from "@components/footer";
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   noLayout?: boolean;
@@ -36,6 +37,7 @@ function MyApp({ pageProps }: AppPropsWithLayout): JSX.Element {
   return (
     <>
     <Navbar/>
+    <Footer/>
     </>
   );
 }
