@@ -1,7 +1,7 @@
 import React from 'react'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Image from 'next/image';
-import logoImage from '../../../public/images/logo.png';
+import logoImage from '../../../public/images/logo-footer.png';
 import {Poppins} from 'next/font/google'
 
 const poppins = Poppins({

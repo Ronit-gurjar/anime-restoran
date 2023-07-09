@@ -11,7 +11,7 @@ const Home = () => {
     <Navbar />
     <div className="home">
           <div className="home__top">
-              <h1>Welcome to our website!</h1>
+              <h1>INDIA’s 1st ANIME THEMED FAMILY RESTAURANT</h1>
           </div>
           <div className="home__bottom">
               <div className="home__image">
