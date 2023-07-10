@@ -67,11 +67,41 @@ body {
   width: fit-content;
   height: fit-content;
   margin-top: 10rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.home__image {
+.home__image__left{
+  object-fit: contain;
   z-index: 10;
 }
+.home__image__left img{
+  height: 50rem;
+  margin-top: -10rem;
+  object-fit: contain;
+}
+
+.home__image__main{
+  object-fit: contain;
+  z-index: 5;
+}
+
+.home__image__main img{
+  width: 60rem;
+  height: fit-content;
+  object-fit: contain;
+}
+
+.home__image__right{
+  object-fit: contain;
+  z-index: 10;
+}
+.home__image__right img{
+  height: 50rem;
+  margin-top: -10rem;
+  object-fit: contain;
+}
+
 /*---------Home style ends-------------*/
 
 /*--------------sidebar style----------------*/

@@ -16,13 +16,13 @@ const Home = () => {
             <h1>INDIA’s 1st ANIME THEMED FAMILY RESTAURANT</h1>
         </div>
         <div className="home__bottom">
-            <div className="home__image">
+            <div className="home__image__left">
                 <Image src={HeroStanding1} alt="hero-image luffy standing" />
             </div>
-            <div className="home__image">
+            <div className="home__image__main">
                 <Image src={HeroRamen} alt="Ramen" />
             </div>
-            <div className="home__image">
+            <div className="home__image__right">
                 <Image src={HeroStanding2} alt="hero-image naruto standing" />
             </div>
         </div>
