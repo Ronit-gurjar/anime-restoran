@@ -1,5 +1,7 @@
 import React from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import Image from 'next/image';
+import UserImg from '../../../public/images/user-image.png';
 
 interface SidebarProps {
     isOpen: boolean;
@@ -14,7 +16,8 @@ interface SidebarProps {
       </button>
       <div className="sidebar__content">
         <div className="sidebar__image">
-          <img src="/user-image.png" alt="User" />
+          <Image src={UserImg} alt="User" />
+          <h1>User</h1>
         </div>
         <div className="sidebar__buttons">
           <button>Order</button>
