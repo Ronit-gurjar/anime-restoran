@@ -20,7 +20,7 @@ const Home = () => {
                 <Image src={HeroStanding1} alt="hero-image luffy standing" />
             </div>
             <div className="home__image__main">
-                <Image src={HeroRamen} alt="Ramen" />
+                <Image src={HeroRamen} alt="Ramen" layout='responsive'/>
             </div>
             <div className="home__image__right">
                 <Image src={HeroStanding2} alt="hero-image naruto standing" />

@@ -84,11 +84,12 @@ body {
 .home__image__main{
   object-fit: contain;
   z-index: 5;
+  height: 50rem;
 }
 
 .home__image__main img{
   width: 60rem;
-  margin-top: -10rem;
+  margin-top: 0rem;
   height: fit-content;
   object-fit: contain;
 }
@@ -108,12 +109,16 @@ body {
 /*--------------sidebar style----------------*/
 .sidebar {
   position: fixed;
-  top: 0;
+  backdrop-filter:blur(2);
+  display: flex;
+  flex-direction: column;
+  top: 2rem;
   right: -250px;
   width: 250px;
-  height: 100vh;
+  height: 90vh;
   background-color: #333333ec;
   color: #fff;
+  border-radius: 1rem;
   transition: left 0.3s ease;
 }
 
@@ -123,14 +128,17 @@ body {
 
 .sidebar__close-button {
   background-color: transparent;
-  border: none;
+  border: solid;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
   color: #ff6b00;
-  padding: 10px;
+  padding: 1rem;
   cursor: pointer;
 }
 
 .sidebar__content {
   padding: 20px;
+  height: fit-content;
 }
 
 .sidebar__image {
@@ -153,12 +161,15 @@ body {
 .sidebar__buttons button {
   display: block;
   width: 100%;
-  margin-bottom: 10px;
-  background-color: transparent;
+  margin-top: 3rem;
+  background-color: #ff6b00;
   border: none;
+  border-radius: 1rem;
   color: #fff;
   padding: 10px;
-  text-align: left;
+  font-weight: 500;
+  font-size: larger;
+  text-align: center;
 }
 
 .sidebar__logout {
@@ -171,9 +182,13 @@ body {
 .sidebar__logout button {
   width: 100%;
   background-color: transparent;
-  border: none;
-  color: #fff;
-  padding: 10px;
+  border: solid;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: #ff6b00;
+  padding: 1rem;
+  font-weight: 500;
+  font-size: larger;
 }
 /*---------sidebar style ends-------------*/
 
