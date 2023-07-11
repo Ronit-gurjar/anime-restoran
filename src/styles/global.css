@@ -64,7 +64,7 @@ body {
 
 .home__bottom {
   display: flex;
-  width: fit-content;
+  width: -webkit-fill-available;
   height: fit-content;
   margin-top: 10rem;
   align-items: center;
@@ -72,13 +72,16 @@ body {
 }
 
 .home__image__left{
-  object-fit: contain;
+  object-fit: cover;
+  position: relative;
+  left: 15rem;
   z-index: 10;
 }
-.home__image__left img{
-  height: 50rem;
-  margin-top: -10rem;
-  object-fit: contain;
+.home__image__left img {
+  height: 50rem; /* Increase the height value */
+  width: auto; /* Remove the width value */
+  object-fit: cover;
+  margin-top: -15rem;
 }
 
 .home__image__main{
@@ -96,13 +99,17 @@ body {
 
 .home__image__right{
   object-fit: contain;
+  position: relative;
+  right: 25rem;
   z-index: 10;
+
 }
-.home__image__right img{
-  height: 50rem;
-  margin-top: -10rem;
-  object-fit: contain;
-}
+.home__image__right img {
+  height: 50rem; /* Increase the height value */
+  width: auto; /* Remove the width value */
+  object-fit: cover;
+  margin-top: -15rem;
+} 
 
 /*---------Home style ends-------------*/
 
