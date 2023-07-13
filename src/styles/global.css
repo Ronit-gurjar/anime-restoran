@@ -34,6 +34,10 @@ body {
   width: 15rem;
   height: 7.5rem;
 }
+.navbar__logo--small img{
+  width: 8rem; /* Adjust the desired width */
+  height: 4rem; /* Adjust the desired height */
+}
 
 .navbar__right button {
   background-color: transparent;
