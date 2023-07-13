@@ -120,12 +120,13 @@ body {
   flex-direction: column;
   border-radius: 30rem;
   z-index: 20;
-  box-shadow: 20rem 2rem black;
+  
 }
 
 .home-menu__top {
   height: 60%;
   background-color: black  ;
+  box-shadow: 20rem 2rem black;
   z-index: 20;
 }
 
@@ -133,6 +134,13 @@ body {
   height: 50%;
   background-color:#ff6b00;
   z-index: 20;
+}
+
+.home-menu__top h1{
+ color: #fff;
+ font-size: xxx-large;
+ display: flex;
+ justify-content: center;
 }
 
 /*--------------HomeMenu ends-------------*/
