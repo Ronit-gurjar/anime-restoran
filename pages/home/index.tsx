@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "@components/navbar";
+import HomeMenu from '@components/homeMenu';
 import Footer from "@components/footer";
 import Image from 'next/image';
 import HeroRamen from '../../public/images/hero-ramen.png'
@@ -27,6 +28,7 @@ const Home = () => {
             </div>
         </div>
     </div>
+    <HomeMenu/> 
     <Footer/>
     </>
   );
