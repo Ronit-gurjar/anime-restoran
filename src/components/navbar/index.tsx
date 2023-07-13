@@ -20,10 +20,11 @@ const Navbar: React.FC = () => {
   };
 
   const [scrollPosition, setScrollPosition] = useState(0);
+  const [isScrolledDown, setIsScrolledDown] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      const position = window.pageYOffset;
+      const position = window.scrollY;
       setScrollPosition(position);
     };
 
@@ -34,7 +35,9 @@ const Navbar: React.FC = () => {
     };
   }, []);
 
-  const isScrolledDown = scrollPosition > 0;
+  useEffect(() => {
+    setIsScrolledDown(scrollPosition > window.innerHeight);
+  }, [scrollPosition]);
 
   return (
     <>

@@ -4,7 +4,7 @@ body {
 /*--------------navbar style----------------*/
 .navbar {
   width: -webkit-fill-available;
-  height: 4rem;
+  height: 3rem;
   margin-top: 2rem;
   display: flex;
   align-items: center;
@@ -13,6 +13,11 @@ body {
   border-radius: 1rem;
   position: fixed;
   z-index: 1000;
+  transition: margin-top 0.3s;
+}
+
+.navbar.scrolled{
+  margin-top: 0rem;
 }
 
 .navbar__left {
@@ -33,10 +38,11 @@ body {
   margin-right: 4rem;
   width: 15rem;
   height: 7.5rem;
+  transition: transform 0.3s;
 }
 .navbar__logo--small img{
-  width: 8rem; /* Adjust the desired width */
-  height: 4rem; /* Adjust the desired height */
+  margin-top: 0rem;
+  transform: scale(0.6);
 }
 
 .navbar__right button {
@@ -120,22 +126,23 @@ body {
 /*--------------HomeMenu style----------------*/
 .home-menu {
   display: flex;
-  height: 100vh;
+  height: 110vh;
   flex-direction: column;
-  border-radius: 30rem;
   z-index: 20;
   
 }
 
 .home-menu__top {
   height: 60%;
+  padding: 1rem;
   background-color: black  ;
-  box-shadow: 20rem 2rem black;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
   z-index: 20;
 }
 
 .home-menu__bottum {
-  height: 50%;
+  height: 40%;
   background-color:#ff6b00;
   z-index: 20;
 }
