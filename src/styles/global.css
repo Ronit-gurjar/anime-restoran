@@ -48,7 +48,7 @@ body {
 /*--------------Home style----------------*/
 .home {
   background-color: #ff6b00;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -112,6 +112,30 @@ body {
 } 
 
 /*---------Home style ends-------------*/
+
+/*--------------HomeMenu style----------------*/
+.home-menu {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  border-radius: 30rem;
+  z-index: 20;
+  box-shadow: 20rem 2rem black;
+}
+
+.home-menu__top {
+  height: 60%;
+  background-color: black  ;
+  z-index: 20;
+}
+
+.home-menu__bottum {
+  height: 50%;
+  background-color:#ff6b00;
+  z-index: 20;
+}
+
+/*--------------HomeMenu ends-------------*/
 
 /*--------------sidebar style----------------*/
 .sidebar {
