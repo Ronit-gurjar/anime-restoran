@@ -169,7 +169,9 @@ body {
 .embla {
   overflow: hidden;
   background-color: #333333;
-  width: 70rem;
+  position: relative;
+  right: 10rem;
+  width: 60rem;
   z-index: 20;
 }
 .embla__container {
