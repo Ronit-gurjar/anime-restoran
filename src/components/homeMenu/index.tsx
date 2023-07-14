@@ -1,5 +1,8 @@
 import React from 'react';
 import {Poppins} from 'next/font/google'
+import useEmblaCarousel from 'embla-carousel-react'
+
+
 import Image from 'next/image';
 import naruImg from '../../../public/images/naruto eating snacks.png';
 import sasuImg from '../../../public/images/sasuke eating snack.png';
@@ -14,6 +17,9 @@ const poppins = Poppins({
 })
 
 const HomeMenu = () => {
+
+  const [emblaRef] = useEmblaCarousel()
+
   return (
     <div className="home-menu">
       <div className="home-menu__top">
@@ -22,7 +28,16 @@ const HomeMenu = () => {
             <h1 className={poppins.className}>Our Menu</h1>
             <Image src={sasuImg} alt="sasuke eating snack" />
         </div>
-        <Image src={FoodTypoImg} alt="Foods" />
+        <div className="home-menu__top-content">
+            <Image src={FoodTypoImg} alt="Foods" />
+            <div className="embla" ref={emblaRef}>
+                <div className="embla__container">
+                    <div className="embla__slide"><h1>Slide 1</h1></div>
+                    <div className="embla__slide"><h1>Slide 1</h1></div>
+                    <div className="embla__slide"><h1>Slide 1</h1></div>
+                </div>
+            </div>
+        </div>
       </div>
         
       <div className="home-menu__bottum">

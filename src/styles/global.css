@@ -155,6 +155,27 @@ body {
   display: flex;
  justify-content: center;
 }
+.home-menu__top-content{
+  display: flex;
+}
+.embla {
+  overflow: hidden;
+  background-color: #333333;
+  width: 70rem;
+  z-index: 20;
+}
+.embla__container {
+  display: flex;
+  z-index: 20;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  z-index: 20;
+}
+.embla__slide h1{
+  color: #fff;
+}
 
 /*--------------HomeMenu ends-------------*/
 
