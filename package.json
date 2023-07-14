@@ -17,6 +17,7 @@
     "@refinedev/kbar": "^1.1.0",
     "@refinedev/nextjs-router": "^5.1.4",
     "@refinedev/supabase": "^5.0.0",
+    "embla-carousel-react": "^8.0.0-rc11",
     "next": "^13.0.6",
     "next-i18next": "^8.9.0",
     "nookies": "^2.5.2",
