@@ -1,7 +1,7 @@
 import React from 'react';
 import {Poppins} from 'next/font/google'
 import useEmblaCarousel from 'embla-carousel-react'
-
+import Autoplay from 'embla-carousel-autoplay'
 
 import Image from 'next/image';
 import naruImg from '../../../public/images/naruto eating snacks.png';
@@ -18,7 +18,7 @@ const poppins = Poppins({
 
 const HomeMenu = () => {
 
-  const [emblaRef] = useEmblaCarousel()
+    const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()])
 
   return (
     <div className="home-menu">
@@ -41,7 +41,16 @@ const HomeMenu = () => {
       </div>
         
       <div className="home-menu__bottum">
-        <Image src={DrinkTypoImg} alt="Drinks" />
+        <div className="home-menu__bottum-content">
+            <Image src={DrinkTypoImg} alt="Drinks" />
+            <div className="embla" ref={emblaRef}>
+                <div className="embla__container">
+                    <div className="embla__slide"><h1>Slide 2</h1></div>
+                    <div className="embla__slide"><h1>Slide 2</h1></div>
+                    <div className="embla__slide"><h1>Slide 2</h1></div>
+                </div>
+            </div>
+        </div>
       </div>
     </div>
   );
