@@ -9,6 +9,8 @@ import sasuImg from '../../../public/images/sasuke eating snack.png';
 import FoodTypoImg from '../../../public/images/Foods.png';
 import DrinkTypoImg from '../../../public/images/Drinks.png';
 
+import Card from '@components/homeMenu-card';
+
 const poppins = Poppins({
   weight: ['200', '400'],
   style: ['normal', 'normal'],
@@ -33,9 +35,66 @@ const HomeMenu = () => {
             <Image src={FoodTypoImg} alt="Foods" />
             <div className="embla" ref={emblaRef1}>
                 <div className="embla__container">
-                    <div className="embla__slide"><h1>Slide 1</h1></div>
-                    <div className="embla__slide"><h1>Slide 1</h1></div>
-                    <div className="embla__slide"><h1>Slide 1</h1></div>
+                    <div className="embla__slide">
+                      <Card
+                        image="/path/to/image.jpg"
+                        title="Product Title"
+                        price={19.99}
+                        rating={4}
+                      />
+                      <Card
+                        image="/path/to/image.jpg"
+                        title="Product Title"
+                        price={19.99}
+                        rating={4}
+                      />
+                      <Card
+                        image="/path/to/image.jpg"
+                        title="Product Title"
+                        price={19.99}
+                        rating={4}
+                      />
+                    </div>
+                    <div className="embla__slide">
+                      <Card
+                        image="/path/to/image.jpg"
+                        title="Product Title"
+                        price={19.99}
+                        rating={4}
+                      />
+                      <Card
+                        image="/path/to/image.jpg"
+                        title="Product Title"
+                        price={19.99}
+                        rating={4}
+                      />
+                      <Card
+                        image="/path/to/image.jpg"
+                        title="Product Title"
+                        price={19.99}
+                        rating={4}
+                      />
+                    </div>
+                    <div className="embla__slide">
+                      <Card
+                        image="/path/to/image.jpg"
+                        title="Product Title"
+                        price={19.99}
+                        rating={4}
+                      />
+                      <Card
+                        image="/path/to/image.jpg"
+                        title="Product Title"
+                        price={19.99}
+                        rating={4}
+                      />
+                      <Card
+                        image="/path/to/image.jpg"
+                        title="Product Title"
+                        price={19.99}
+                        rating={4}
+                      />
+                    </div>
                 </div>
             </div>
         </div>
