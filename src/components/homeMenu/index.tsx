@@ -36,6 +36,7 @@ const HomeMenu = () => {
             <div className="embla" ref={emblaRef1}>
                 <div className="embla__container">
                     <div className="embla__slide">
+                      <div className="embla__slide-list">
                       <Card
                         image="/path/to/image.jpg"
                         title="Product Title"
@@ -55,7 +56,9 @@ const HomeMenu = () => {
                         rating={4}
                       />
                     </div>
+                    </div>
                     <div className="embla__slide">
+                      <div className="embla__slide-list">
                       <Card
                         image="/path/to/image.jpg"
                         title="Product Title"
@@ -75,7 +78,9 @@ const HomeMenu = () => {
                         rating={4}
                       />
                     </div>
+                    </div>
                     <div className="embla__slide">
+                      <div className="embla__slide-list">
                       <Card
                         image="/path/to/image.jpg"
                         title="Product Title"
@@ -94,6 +99,7 @@ const HomeMenu = () => {
                         price={19.99}
                         rating={4}
                       />
+                    </div>
                     </div>
                 </div>
             </div>
