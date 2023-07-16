@@ -27,9 +27,8 @@ const Card: React.FC<CardProps> = ({ image, title, price, rating }) => {
   );
 };
 
-const Carousel = () => {
+const Carousel_drink = () => {
     const [emblaRef1] = useEmblaCarousel({ loop: false }, [Autoplay()])
-    const [emblaRef2] = useEmblaCarousel({ loop: false }, [Autoplay()])
 
   return (
     <>
@@ -107,4 +106,4 @@ const Carousel = () => {
   )
 }
 
-export default Carousel
+export default Carousel_drink

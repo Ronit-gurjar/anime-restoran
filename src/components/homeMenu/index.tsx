@@ -1,5 +1,7 @@
 import React from 'react';
 import {Poppins} from 'next/font/google'
+import Carousel_food from '@components/embla-carousel-food';
+import Carousel_drink from '@components/embla-carousel-drink';
 
 import Image from 'next/image';
 import naruImg from '../../../public/images/naruto eating snacks.png';
@@ -25,14 +27,14 @@ const HomeMenu = () => {
         </div>
         <div className="home-menu__top-content">
             <Image src={FoodTypoImg} alt="Foods" />
-           
+            <Carousel_food/>
         </div>
       </div>
         
       <div className="home-menu__bottum">
         <div className="home-menu__bottum-content">
             <Image src={DrinkTypoImg} alt="Drinks" />
-            
+            <Carousel_drink/>
         </div>
       </div>
     </div>
