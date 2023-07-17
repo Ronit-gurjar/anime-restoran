@@ -197,12 +197,15 @@ body {
   justify-content: center;
   box-shadow: 0 0 2rem rgba(255, 255, 255, 0.2);
   border-radius: 2rem;
-  width: fit-content;
-  height: fit-content;
+  width: 13rem;
+  height: 20rem;
 }
 .card__image{
+  margin-top: 1rem;
   border-top-left-radius: 2rem ;
   border-top-right-radius: 2rem ;
+  border-bottom-left-radius: 1rem ;
+  border-bottom-right-radius: 1rem ;
 }
 .card__title{
   display: flex;
