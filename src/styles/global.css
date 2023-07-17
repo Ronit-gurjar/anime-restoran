@@ -18,6 +18,7 @@ body {
 
 .navbar.scrolled{
   margin-top: 0rem;
+  border-radius: 0rem;
 }
 
 .navbar__left {
