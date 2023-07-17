@@ -168,10 +168,12 @@ body {
 }
 .embla {
   overflow: hidden;
-  background-color: #333333;
+  background-color: rgba(51, 51, 51, 0.6);
+  border-radius: 2rem;
   position: relative;
   right: 10rem;
   width: 60rem;
+  padding: 0.3rem;
   z-index: 20;
 }
 .embla__container {
@@ -186,6 +188,15 @@ body {
 .embla__slide-list{
   display: flex;
   justify-content: space-evenly;
+}
+.card{
+  background-color: #fff;
+  border-radius: 2rem;
+  width: fit-content;
+  height: fit-content;
+}
+.card__image{
+  border-radius: 2rem ;
 }
 
 /*--------------HomeMenu ends-------------*/

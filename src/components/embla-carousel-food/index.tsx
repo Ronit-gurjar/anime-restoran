@@ -23,17 +23,17 @@ const Carousel_food = () => {
             <div className="embla__slide">
                 <div className="embla__slide-list">
                 <div className="card">
-                  <Image src={ramen1} alt="text" className="card__image" width={300} height={200}/>
+                  <Image src={ramen1} alt="text" className="card__image" width={200} height={200}/>
                   <h2 className="card__title">"text"</h2>
                   <p className="card__price">$20</p>
                 </div>
                 <div className="card">
-                  <Image src={ramen2} alt="text" className="card__image" width={300} height={200}/>
+                  <Image src={ramen2} alt="text" className="card__image" width={200} height={200}/>
                   <h2 className="card__title">"text"</h2>
                   <p className="card__price">$21</p>
                 </div>
                 <div className="card">
-                  <Image src={ramen3} alt="text" className="card__image" width={300} height={200}/>
+                  <Image src={ramen3} alt="text" className="card__image" width={200} height={200}/>
                   <h2 className="card__title">"text"</h2>
                   <p className="card__price">$19.99</p>
                 </div>
@@ -42,17 +42,17 @@ const Carousel_food = () => {
             <div className="embla__slide">
                 <div className="embla__slide-list">
                 <div className="card">
-                  <Image src={burger1} alt="text" className="card__image" width={300} height={200}/>
+                  <Image src={burger1} alt="text" className="card__image" width={200} height={200}/>
                   <h2 className="card__title">"text"</h2>
                   <p className="card__price">$5</p>
                 </div>
                 <div className="card">
-                  <Image src={burger2} alt="text" className="card__image" width={300} height={200}/>
+                  <Image src={burger2} alt="text" className="card__image" width={200} height={200}/>
                   <h2 className="card__title">"text"</h2>
                   <p className="card__price">$6</p>
                 </div>
                 <div className="card">
-                  <Image src={burger3} alt="text" className="card__image" width={300} height={200}/>
+                  <Image src={burger3} alt="text" className="card__image" width={200} height={200}/>
                   <h2 className="card__title">"text"</h2>
                   <p className="card__price">$5</p>
                 </div>
@@ -61,17 +61,17 @@ const Carousel_food = () => {
             <div className="embla__slide">
                 <div className="embla__slide-list">
                 <div className="card">
-                  <Image src={indianfood1} alt="text" className="card__image" width={300} height={200}/>
+                  <Image src={indianfood1} alt="text" className="card__image" width={200} height={200}/>
                   <h2 className="card__title">"text"</h2>
                   <p className="card__price">$10</p>
                 </div>
                 <div className="card">
-                  <Image src={indianfood2} alt="text" className="card__image" width={300} height={200}/>
+                  <Image src={indianfood2} alt="text" className="card__image" width={200} height={200}/>
                   <h2 className="card__title">"text"</h2>
                   <p className="card__price">$10</p>
                 </div>
                 <div className="card">
-                  <Image src={indianfood3} alt="text" className="card__image" width={300} height={200}/>
+                  <Image src={indianfood3} alt="text" className="card__image" width={200} height={200}/>
                   <h2 className="card__title">"text"</h2>
                   <p className="card__price">$20</p>
                 </div>
