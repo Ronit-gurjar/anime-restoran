@@ -6,6 +6,7 @@ import Image from 'next/image';
 import HeroRamen from '../../public/images/hero-ramen.png'
 import HeroStanding1 from '../../public/images/luffy-standing.png'
 import HeroStanding2 from '../../public/images/naruto-standing.png'
+import Contact from '@components/contact';
 
 
 const Home = () => {
@@ -29,6 +30,7 @@ const Home = () => {
         </div>
     </div>
     <HomeMenu/> 
+    <Contact/>
     <Footer/>
     </>
   );
