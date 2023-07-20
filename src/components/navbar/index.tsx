@@ -4,6 +4,9 @@ import Image from 'next/image';
 import logoImage from '../../../public/images/logo.png';
 import {Poppins} from 'next/font/google'
 import Sidebar from '@components/sidebar';
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+
 
 const poppins = Poppins({
     weight: ['200', '400'],
@@ -43,14 +46,14 @@ const Navbar: React.FC = () => {
     <>
      <nav className={`navbar ${isScrolledDown ? 'scrolled' : ''}`}>
       <div className="navbar__left">
-        <a href="#" className={poppins.className}>Home</a>
-        <a href="#" className={poppins.className}>Our Menu</a>
+        <a href="#home" className={poppins.className}>Home</a>
+        <a href="#menu" className={poppins.className}>Our Menu</a>
       </div>
       <div className={`navbar__logo ${isScrolledDown ? 'navbar__logo--small' : ''}`}>
         <Image src={logoImage} alt="Logo" placeholder='blur'/>
       </div>
       <div className="navbar__right">
-        <a href="#" className={poppins.className}>Contact</a>
+        <a href="#contact" className={poppins.className}>Contact</a>
         <button className='User' onClick={toggleSidebar}>
           <i id="icon-user" className="fas fa-user-circle fa-2x"></i>
         </button>

@@ -18,7 +18,7 @@ const poppins = Poppins({
 
 const HomeMenu = () => {
   return (
-    <div className="home-menu">
+    <div className="home-menu" id='menu'>
       <div className="home-menu__top">
         <div className="home-menu__top-title">
             <Image src={naruImg} alt="naruto eating snack" />

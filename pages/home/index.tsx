@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <>
     <Navbar />
-    <div className="home">
+    <div className="home" id='home'>
         <div className="home__top">
             <h1>INDIA’s 1st ANIME THEMED FAMILY RESTAURANT</h1>
         </div>

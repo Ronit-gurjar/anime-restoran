@@ -15,7 +15,7 @@ const poppins = Poppins({
 const Contact = () => {
   return (
     <>
-        <div className='contact'>
+        <div className='contact' id='contact'>
             <div className="contact__top">
                 <Image src={title} alt='location' width={300} height={70}/>
             </div>
