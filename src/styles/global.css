@@ -1,6 +1,10 @@
 body {
   margin: 0px;
 }
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 1rem;
+}
 /*--------------navbar style----------------*/
 .navbar {
   width: -webkit-fill-available;
