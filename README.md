@@ -31,25 +31,32 @@ this should open a new tab on the browser at port localhost:3000.
 ## Install Project
 To install the project follow these instruction:-
 
-- 1. Install this repo by either cloning or installing the zip file.
-### Clone
-if you decide to Clone this file:-
-- Open the repo, click on the ![Screenshot_20230721_030443](https://github.com/Ronit-gurjar/Flutter/assets/92150685/f5b97f85-5dd8-47b2-96f3-7dfe52115cbc) button.
-- Copy the https link.
-- Open your git bash terminal or Vs-code terminal and enter following command:-
-git clone https://github.com/Ronit-gurjar/anime-restoran.git
-- Once successfully downloaded, enter following commands:-
-cd <directory-name>
-code .
-### Download Zip
-if you decide to download th ezip file:-
-- Open the repo, click on the ![Screenshot_20230721_030443](https://github.com/Ronit-gurjar/Flutter/assets/92150685/f5b97f85-5dd8-47b2-96f3-7dfe52115cbc) button.
-- Click on the Download zip button.
-- Once downlaoded, open the zip and extract the contents to desired location.
-- Open the folder in Vs-code or your desired IDE
+### `1`Install this repo by either cloning or installing the zip file.
+  ### Clone
+  if you decide to Clone this file:-
+  - Open the repo, click on the ![Screenshot_20230721_030443](https://github.com/Ronit-gurjar/Flutter/assets/92150685/f5b97f85-5dd8-47b2-96f3-7dfe52115cbc) button.
+  - Copy the https link.
+  - Open your git bash terminal or Vs-code terminal and enter following command:-
+  ```
+  git clone https://github.com/Ronit-gurjar/anime-restoran.git
+  ```
 
-- 2. After opening the folder run the following command:-
+  - Once successfully downloaded, enter following commands:-
+ ```
+  cd anime-restoran
+  code .
+ ```
+  ### Download Zip
+  if you decide to download th ezip file:-
+  - Open the repo, click on the ![Screenshot_20230721_030443](https://github.com/Ronit-gurjar/Flutter/assets/92150685/f5b97f85-5dd8-47b2-96f3-7dfe52115cbc) button.
+  - Click on the Download zip button.
+  - Once downlaoded, open the zip and extract the contents to desired location.
+  - Open the folder in Vs-code or your desired IDE
+
+### `2` After opening the folder run the following command:-
+```
 npm install
+```
 this will install all the dependencies for the project to work.
 
 ## License
