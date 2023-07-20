@@ -7,14 +7,14 @@ This [refine](https://github.com/pankod/refine) project was generated with [supe
 # About
 
 ## Description:-
-This project is a Storefront(Online pressence) of Anime-レストラン restaurant franchise. This website showcase the products available at the restaurant and other information about the restaurant. We build a simple Yet stylish storefront using refine.
-### About refine
+This project is a `Storefront`(Online pressence) of Anime-レストラン restaurant franchise. This website showcase the products available at the restaurant and other information about the restaurant. We build a simple Yet stylish storefront using refine.
+### About **refine**
 refine is a React-based framework for building data-intensive applications in no time ✨
 Refine offers lots of out-of-the box functionality for rapid development, without compromising extreme customizability. Use-cases include, but are not limited to admin panels, B2B applications and dashboards.
 
 ## Participants:-
-- Github :- [Vinit Gurjar](https://github.com/VinitGurjar) , [Ronit Gurjar](https://github.com/Ronit-gurjar)
-- Twitter :- [Vinit Gurjar](https://twitter.com/bhaktkage) , [Ronit Gurjar](https://twitter.com/R0nitGurjar)
+- `Github` :- [Vinit Gurjar](https://github.com/VinitGurjar) , [Ronit Gurjar](https://github.com/Ronit-gurjar)
+- `Twitter` :- [Vinit Gurjar](https://twitter.com/bhaktkage) , [Ronit Gurjar](https://twitter.com/R0nitGurjar)
 
 ## Preview:-
 here are few photos that shows how the website looks like:-
@@ -24,9 +24,11 @@ here are few photos that shows how the website looks like:-
 ## Set up Project
 In order to run the project locally on your system, follow these steps:-
 - Install the project following the instruction provided in the below section. (Install Project section)
-- After Successfully installing, open the terminal and Type the following command:- 
+- After Successfully installing, open the terminal and Type the following command:-
+```
 npm run dev
-this should open a new tab on the browser at port localhost:3000.
+```
+this should open a new tab on the browser at port `localhost:3000`.
 
 ## Install Project
 To install the project follow these instruction:-
