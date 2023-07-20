@@ -62,4 +62,4 @@ npm install
 this will install all the dependencies for the project to work.
 
 ## License
-MIT
+[MIT 2023](https://github.com/Ronit-gurjar/anime-restoran/blob/main/LICENSE)
