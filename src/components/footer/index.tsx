@@ -17,15 +17,15 @@ const Footer = () => {
       <div className={poppins.className}>
       <div className="footer__content">
         <div className="footer__left">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
+          <a href="#">Contact</a>
+          <a href="#">Affiliate</a>
         </div>
         <div className="footer__middle">
           <Image src={logoImage} alt="Logo" placeholder='blur'/>
         </div>
         <div className="footer__right">
-          <a href="#">Link 3</a>
-          <a href="#">Link 4</a>
+          <a href="#">Community</a>
+          <a href="#">Donate</a>
         </div>
       </div>
       <div className="footer__social">
@@ -37,7 +37,7 @@ const Footer = () => {
           </a>
       </div>
       <div className="footer__text">
-        <p>&copy; 2023 Your Company. All rights reserved.</p>
+        <p>&copy; 2023 Anime-レストラン. All rights reserved.</p>
       </div>
       </div>
     </footer>
