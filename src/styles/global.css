@@ -27,7 +27,7 @@ body {
   justify-content: space-between;
 }
 
-.navbar__left a {
+.navbar__left a{
   font-size: larger;
   text-decoration: none;
   color: #ff6b00;
@@ -46,6 +46,12 @@ body {
   transform: scale(0.6);
 }
 
+.navbar__right a{
+  font-size: larger;
+  text-decoration: none;
+  color: #ff6b00;
+  padding: 1rem;
+}
 .navbar__right button {
   background-color: transparent;
   border: none;

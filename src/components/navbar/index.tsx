@@ -50,9 +50,7 @@ const Navbar: React.FC = () => {
         <Image src={logoImage} alt="Logo" placeholder='blur'/>
       </div>
       <div className="navbar__right">
-        <button>
-          <i id="icon-cart" className="fas fa-shopping-cart fa-2x" ></i>
-        </button>
+        <a href="#" className={poppins.className}>Contact</a>
         <button className='User' onClick={toggleSidebar}>
           <i id="icon-user" className="fas fa-user-circle fa-2x"></i>
         </button>
