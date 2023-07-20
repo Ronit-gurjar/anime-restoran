@@ -13,7 +13,7 @@ body {
   border-radius: 1rem;
   position: fixed;
   z-index: 1000;
-  transition: margin-top 0.3s;
+  transition: 0.3s ease-in-out;
 }
 
 .navbar.scrolled{
@@ -39,7 +39,7 @@ body {
   margin-right: 4rem;
   width: 15rem;
   height: 7.5rem;
-  transition: transform 0.3s;
+  transition: transform 0.3s ease-in-out;
 }
 .navbar__logo--small img{
   margin-top: 0rem;
