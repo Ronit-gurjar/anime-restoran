@@ -1,10 +1,10 @@
 import { createClient } from "@refinedev/supabase";
 
-const SUPABASE_URL = "https://iwdfzvfqbtokqetmbmbp.supabase.co";
-const SUPABASE_KEY =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzMDU2NzAxMCwiZXhwIjoxOTQ2MTQzMDEwfQ._gr6kXGkQBi9BM9dx5vKaNKYj_DJN1xlkarprGpM_fU";
+const supabaseUrl = "https://cyorlzgnhgkwcveapcqw.supabase.co";
+const supabaseAnonKey =
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN5b3JsemduaGdrd2N2ZWFwY3F3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTE2MDYyMTYsImV4cCI6MjAwNzE4MjIxNn0.9aJeqh21Db0VIt-PU87Cop5zeuta31vuwkMDT5EfgHk";
 
-export const supabaseClient = createClient(SUPABASE_URL, SUPABASE_KEY, {
+export const supabaseClient = createClient(supabaseUrl, supabaseAnonKey, {
   db: {
     schema: "public",
   },
